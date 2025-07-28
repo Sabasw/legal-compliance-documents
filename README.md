@@ -1,5 +1,4 @@
-# 🚀 SolveLex Enhanced File Tracking System
-
+# 🚀 SolveLex
 A comprehensive legal document management system with blockchain-based audit trails, AI-powered analysis, and advanced file integrity tracking.
 
 ## 📋 Table of Contents
