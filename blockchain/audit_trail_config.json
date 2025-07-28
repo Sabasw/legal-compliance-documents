@@ -1,0 +1,25 @@
+{
+    "solana": {
+        "program_id": "ADD PROGRAM ID HERE",
+        "rpc_endpoint": "https://api.testnet.solana.com",
+        "retry_attempts": 3,
+        "timeout_seconds": 30,
+        "commitment": "confirmed"
+    },
+    "audit_trail": {
+        "retention_period": 31536000,
+        "jurisdiction": "US",
+        "default_access_level": 1,
+        "allowed_document_types": ["PDF", "DOC", "DOCX", "XLS", "XLSX"],
+        "max_file_size_bytes": 10485760,
+        "store_local_backup": true,
+        "verify_transactions": true
+    },
+    "security": {
+        "encryption_enabled": true,
+        "min_access_level": 1,
+        "max_access_level": 5,
+        "require_signatures": true,
+        "key_rotation_days": 30
+    }
+} 
